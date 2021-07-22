@@ -1,0 +1,21 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <!-- Servlet的名字，可以自定义 -->
+    <servlet-name>StudentServlet</servlet-name>
+    <!-- Servlet的路径，与用户的路径相对应 -->
+    <servlet-class>com.wenyi.userHandle.servlet.UserServlet</servlet-class>
+  </servlet>
+  <!-- 配置路径的映射 -->
+  <servlet-mapping>
+    <!-- Servlet的名字，必须和servlet标签中的一致 -->
+    <servlet-name>StudentServlet</servlet-name>
+    <!-- Servlet的访问路径 -->
+    <url-pattern>/view/login/userLoginRegister</url-pattern>
+  </servlet-mapping>
+</web-app>

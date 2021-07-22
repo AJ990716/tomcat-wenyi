@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--存放我的tomcat配置文件 目前暂时只模拟端口-->
+<Server>
+    <Connector port="8080"/>
+</Server>
